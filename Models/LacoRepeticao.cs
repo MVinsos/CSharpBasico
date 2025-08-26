@@ -78,17 +78,41 @@ public class LacoRepeticao
             switch (opcao)
             {
                 case "1":
-                    Console.WriteLine("Cadastro de cliente.");
+                    Console.WriteLine("Digite seu nome completo.");
+                    string? Nome = Console.ReadLine();
+
+                    Console.WriteLine("Digite sua idade.");
+                    string? Idade = Console.ReadLine();
+
+                    if (int.TryParse(Idade, out int IdadeConvertida))
+                    {
+                        Random Conta = new Random();
+                        int NumeroConta = Conta.Next(1000, 9999);
+                        DateTime agora = DateTime.Now;
+
+                        Console.WriteLine($"Cadastro realizado com sucesso!");
+                        Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
+                        Console.WriteLine($"Sua conta é {NumeroConta}.\nCadastro concluido as {agora}");  
+                        Console.WriteLine("Retornando ao menu principal.\n");
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Idade inválida, digite um número inteiro.\n");
+                    }
+
                     break;
                 case "2":
-                    Console.WriteLine("Busca de cliente.");
+                    Console.WriteLine("Banco de dados inacessivel no momento, tente novamente mais tarde.\n");
                     break;
                 case "3":
-                    Console.WriteLine("Apagar cliente.");
+                    Console.WriteLine("Banco de dados inacessivel no momento, tente novamente mais tarde.\n");
+
                     break;
                 case "4":
                     Console.WriteLine("Encerrando operação.");
-                    return;
+                    Environment.Exit(0);
+                    break;
                 default:
                     Console.WriteLine("Opção inválida, digite novamente.");
                     break;
