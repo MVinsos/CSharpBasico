@@ -1,0 +1,14 @@
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\obj\Debug\net9.0\CSharpBasico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\obj\Debug\net9.0\CSharpBasico.AssemblyInfoInputs.cache
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\obj\Debug\net9.0\CSharpBasico.AssemblyInfo.cs
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\obj\Debug\net9.0\CSharpBasico.csproj.CoreCompileInputs.cache
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\bin\Debug\net9.0\CSharpBasico.exe
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\bin\Debug\net9.0\CSharpBasico.deps.json
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\bin\Debug\net9.0\CSharpBasico.runtimeconfig.json
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\bin\Debug\net9.0\CSharpBasico.dll
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\bin\Debug\net9.0\CSharpBasico.pdb
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\obj\Debug\net9.0\CSharpBasico.dll
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\obj\Debug\net9.0\refint\CSharpBasico.dll
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\obj\Debug\net9.0\CSharpBasico.pdb
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\obj\Debug\net9.0\CSharpBasico.genruntimeconfig.cache
+C:\Users\Tamahowk\Documents\Front End\DotNet\CSharpBasico\obj\Debug\net9.0\ref\CSharpBasico.dll
