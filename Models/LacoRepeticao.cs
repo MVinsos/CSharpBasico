@@ -31,7 +31,7 @@ public class LacoRepeticao
             if (int.TryParse(Tentativa, out int numero))
             {
                 NumeroUsuario = numero;
-                
+
                 if (numero != NumeroSecreto)
                 {
                     Console.WriteLine("Número errado, tente novamente.");
@@ -46,4 +46,57 @@ public class LacoRepeticao
         Console.WriteLine("Párabens, você acertou!");
 
     }
+
+    public void SomarNumero()
+    {
+        int Soma = 0, numero = 0;
+
+        do
+        {
+            Console.WriteLine("Digite um número (0 para parar): ");
+            numero = Convert.ToInt32(Console.ReadLine());
+            Soma += numero;
+
+        }
+        while (numero != 0);
+
+        Console.WriteLine($"A soma dos números digitados é: {Soma}");
+    }
+    
+        public void Cliente()
+    {
+
+        while (true)
+        {
+            Console.WriteLine("Digite a sua opção:");
+            Console.WriteLine("1 - Cadastrar cliente.");
+            Console.WriteLine("2 - Buscar cliente.");
+            Console.WriteLine("3 - Apagar cliente.");
+            Console.WriteLine("4 - Encerrar operação.");
+            string? opcao = Console.ReadLine();
+
+            switch (opcao)
+            {
+                case "1":
+                    Console.WriteLine("Cadastro de cliente.");
+                    break;
+                case "2":
+                    Console.WriteLine("Busca de cliente.");
+                    break;
+                case "3":
+                    Console.WriteLine("Apagar cliente.");
+                    break;
+                case "4":
+                    Console.WriteLine("Encerrando operação.");
+                    return;
+                default:
+                    Console.WriteLine("Opção inválida, digite novamente.");
+                    break;
+            }
+            
+        }
+
+
+    }
 }
+

@@ -44,6 +44,12 @@ class Program
 
         var AcerteONumero = new LacoRepeticao();
         tabuada.AcerteNumero();
+
+        var SomadorNumeros = new LacoRepeticao();
+        SomadorNumeros.SomarNumero();
+
+        var ClienteAcesso = new LacoRepeticao();
+        ClienteAcesso.Cliente();
     }
 }
 
