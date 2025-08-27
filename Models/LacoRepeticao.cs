@@ -65,8 +65,9 @@ public class LacoRepeticao
     
         public void Cliente()
     {
-
-        while (true)
+        bool SistemaCliente = true;
+        
+        while (SistemaCliente)
         {
             Console.WriteLine("Digite a sua opção:");
             Console.WriteLine("1 - Cadastrar cliente.");
@@ -92,7 +93,7 @@ public class LacoRepeticao
 
                         Console.WriteLine($"Cadastro realizado com sucesso!");
                         Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
-                        Console.WriteLine($"Sua conta é {NumeroConta}.\nCadastro concluido as {agora}");  
+                        Console.WriteLine($"Sua conta é {NumeroConta}.\nCadastro concluido as {agora}");
                         Console.WriteLine("Retornando ao menu principal.\n");
 
                     }
@@ -102,22 +103,25 @@ public class LacoRepeticao
                     }
 
                     break;
+
                 case "2":
                     Console.WriteLine("Banco de dados inacessivel no momento, tente novamente mais tarde.\n");
                     break;
+
                 case "3":
                     Console.WriteLine("Banco de dados inacessivel no momento, tente novamente mais tarde.\n");
-
                     break;
+
                 case "4":
                     Console.WriteLine("Encerrando operação.");
-                    Environment.Exit(0);
+                    SistemaCliente = false;
                     break;
+                    
                 default:
                     Console.WriteLine("Opção inválida, digite novamente.");
                     break;
             }
-            
+
         }
 
 
