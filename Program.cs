@@ -50,6 +50,12 @@ class Program
 
         var ClienteAcesso = new LacoRepeticao();
         ClienteAcesso.Cliente();
+
+        var arrayIndice = new Arrays();
+        arrayIndice.ArrayUsos();
+
+        var listaString = new Lista();
+        listaString.Listas();
     }
 }
 
